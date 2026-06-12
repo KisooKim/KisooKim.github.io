@@ -1,6 +1,7 @@
 # Transient / planning artifacts — never published to the site
 _audit/
 .superpowers/
+docs/
 
 # OS / editor
 .DS_Store
