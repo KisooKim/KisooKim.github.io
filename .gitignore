@@ -1,0 +1,13 @@
+# Transient / planning artifacts — never published to the site
+_audit/
+.superpowers/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Syncthing
+.stfolder/
+.stversions/
