@@ -3,6 +3,15 @@ _audit/
 .superpowers/
 docs/
 
+# CV build artifacts (the published copy lives at assets/cv.pdf)
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.synctex.gz
+cv/cv.pdf
+# CV history museum — local/Syncthing only, not published
+cv/archive/
+
 # OS / editor
 .DS_Store
 Thumbs.db
