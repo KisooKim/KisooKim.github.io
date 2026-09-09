@@ -1,6 +1,10 @@
+% cv.tex: the canonical website CV (single source of truth; build with build.sh, which writes ../assets/cv.pdf).
+% Since 2026-09-09 this file is the job-market base CV text (Sharing/Application/2026-27 Job Market/base/CV - Kisoo Kim 2026-27 v15.tex, ADR-095 and its addenda) with two audience differences the owner set the same day: the phone number is out of the contact line ('홈페이지에도 이 CV로 올리자. 단 전화번호는 빼고'), and What Term Limits Move, Newspapers and Legislative Effectiveness and Bills That Never Reached the Floor sit under Work in Progress without links, as on the page ('지원 서류에는 Term Limits·Newspapers·Bills을 working paper로 넣고, 홈페이지에는 work in progress로 해'; ADR-064 follow-up and e7fd87d kept).
+% Keep it in step with that base file: when the base CV cuts a new number, regenerate this file from it (phone line out, the three papers moved down and unlinked) and rebuild with build.sh.
 \documentclass[11pt, Letter]{article}
+\usepackage{mathptmx}
 \usepackage{geometry,graphicx}
-\usepackage{verbatim} % provides comment environment
+\usepackage{verbatim}
 \usepackage[font={footnotesize,bf},labelsep=colon]{caption}
 \geometry{
 letterpaper,
@@ -36,7 +40,7 @@ urlcolor=maroon,
 
 \begin{center}
 Department of Political Science, Vanderbilt University, Nashville, TN
-    \\ \href{mailto:kisoo.kim@vanderbilt.edu}{kisoo.kim@vanderbilt.edu} \ \href{https://kisookim.github.io}{https://kisookim.github.io} \ 312-203-9731
+    \\ \href{mailto:kisoo.kim@vanderbilt.edu}{kisoo.kim@vanderbilt.edu} \ \href{https://kisookim.github.io}{https://kisookim.github.io}
 \end{center}
 
 
@@ -49,7 +53,8 @@ Department of Political Science, Vanderbilt University, Nashville, TN
     Postdoctoral Research Associate, Center for Effective Lawmaking\\
     Department of Political Science
     \item[] \textbf{University of Virginia} \hfill July 2025 - June 2026\\
-    Postdoctoral Research Associate, Center for Effective Lawmaking
+    Postdoctoral Research Associate, Center for Effective Lawmaking\\
+    Frank Batten School of Leadership and Public Policy
 \end{itemize}
 
 
@@ -68,16 +73,6 @@ Department of Political Science, Vanderbilt University, Nashville, TN
 
 \vspace{3mm}
 
-% RESEARCH INTEREST
-\noindent {\large \textbf{Research Interest}\par}
-
-\begin{itemize}[leftmargin=47pt,itemindent=-21pt]
-    \item[] American politics, state and local politics, democratic institutions, political economy, legislative politics, electoral competition, democratic accountability, media politics
-\end{itemize}
-
-
-\vspace{3mm}
-
 % PUBLICATION
 \noindent {\large \textbf{Publication}\par}
 \begin{itemize}[leftmargin=47pt,itemindent=-21pt]
@@ -93,24 +88,26 @@ Department of Political Science, Vanderbilt University, Nashville, TN
 
 \noindent {\large \textbf{Working Paper}\par}
 \begin{itemize}[leftmargin=47pt,itemindent=-21pt]
+% [GATE-1] JMP tag + [GATE-2] QJPS status, see build notes at top.
 \item[] \href{https://osf.io/preprints/socarxiv/ygcqv_v1}{Lame Duck by Primary: Effects of Electoral Incentives on U.S. House Representatives (Job Market Paper)} \textit{R\&R, Quarterly Journal of Political Science}
 \begin{itemize}
     \item[] \small{Winner of Virginia Gray Graduate Student Research Award from the Political Organizations and Parties Section of the American Political Science Association}
 \end{itemize}
+% Order (ADR-095, 2026-09-09): Under Review first; then upload-ready papers by impact; then manuscript-stage; then coauthored and in-draft papers.
 \item[] \href{https://kisookim.github.io/assets/papers/reaching-the-unreached.pdf}{Reaching the Unreached: Radio, Voting, and Representation in Interwar America} \textit{Under Review}
 \item[] \href{https://kisookim.github.io/assets/papers/electoral-college-polarization.pdf}{Does the Electoral College Foster Polarization? Turnout and Opposition Demobilization} \textit{Under Review}
 \item[] \href{https://kisookim.github.io/assets/papers/strategic-media-bias.pdf}{Strategic Media Bias} \textit{Under Review}
-\item[] \href{https://kisookim.github.io/assets/papers/rigidity-of-legislative-positions.pdf}{The Rigidity of Legislative Positions: Incumbents Do Not Respond to Extreme Challengers}
-\item[] \href{https://kisookim.github.io/assets/papers/source-of-the-majority-advantage.pdf}{The Source of the Majority Advantage in Legislative Effectiveness: Separating Cartel Power from Unified Government in U.S. State Legislatures}
-\item[] \href{https://kisookim.github.io/assets/papers/television-majority-party-premium.pdf}{Television and the Majority-Party Premium in Postwar Congress}
 \item[] \href{https://kisookim.github.io/assets/papers/money-follows-the-winner.pdf}{Money Follows the Winner: Office Premiums and Access-Seeking Across the Donor Spectrum in U.S. House Elections}
 \item[] \href{https://kisookim.github.io/assets/papers/seeing-your-representative.pdf}{Seeing Your Representative: Which Accountability Channels Does Local Television Activate?}
+\item[] \href{https://kisookim.github.io/assets/papers/television-majority-party-premium.pdf}{Television and the Majority-Party Premium in Postwar Congress}
+\item[] \href{https://kisookim.github.io/assets/papers/rigidity-of-legislative-positions.pdf}{The Rigidity of Legislative Positions: Incumbents Do Not Respond to Extreme Challengers}
+\item[] \href{https://kisookim.github.io/assets/papers/source-of-the-majority-advantage.pdf}{The Source of the Majority Advantage in Legislative Effectiveness: Separating Cartel Power from Unified Government in U.S. State Legislatures}
 \item[] \href{https://kisookim.github.io/assets/papers/prices-without-rents.pdf}{Prices Without Rents: What an Election Delivers (and Doesn't) to Donor Firms}
 \end{itemize}
 
-\vspace{3mm}
+\vspace{4mm}
 
-% WORK IN PROGRESS
+%WORK IN PROGRESS
 \noindent {\large \textbf{Work in Progress}\par}
 \begin{itemize}[leftmargin=47pt,itemindent=-21pt]
 \item[] What Term Limits Move: Effort, Positions, and the Dynamics of State Legislatures (with Craig Volden and Alan Wiseman)
@@ -152,7 +149,7 @@ Department of Political Science, Vanderbilt University, Nashville, TN
     \item[] Microeconomics (Ph.D.), Professor Scott Ashworth \hfill Winter, 2022
     \item[] Formal Models of Domestic Politics, Professor Scott Gehlbach \hfill Winter, 2021
     \item[] Political Economy 1, 2 (Ph.D.)\hfill 2019
-    \item[] Microeconomics for Public Policy \hfill Spring, 2019\
+    \item[] Microeconomics for Public Policy (Undergraduate) \hfill Spring, 2019
 \end{itemize}
 
 
@@ -230,7 +227,7 @@ Department of Political Science, Vanderbilt University, Nashville, TN
 
 \vspace{6mm}
 \centering\small
-Last updated: August 2026
+Last updated: September 2026
 
 
 \end{document}
